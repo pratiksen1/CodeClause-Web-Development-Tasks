@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital@1&family=Bungee+Shade&family=Bungee+Spice&family=Dancing+Script:wght@600&family=Lumanosimo&family=Monoton&family=Oi&family=Oleo+Script&family=Oswald&family=Roboto:ital,wght@0,400;0,500;1,300&family=Sacramento&display=swap');
+*
+body {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    background: url(images/stopwatch.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .timer-container {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: double;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .timer {
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px 0;
+    color: #580606;
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #196eb4;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #f75d2e;
+  }
+  
